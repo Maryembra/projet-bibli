@@ -1,0 +1,7 @@
+ create table livres(id int primary key auto_increment,titre varchar(100) not null,image varchar(100),auteur varchar(100) not null default 'unknown',annedepub date);
+tkinter:pip install tkinter
+ttkboostrap:python -m pip install ttkbootstrap
+PIL:pip install pillow
+mysql connctor:python -m pip install mysql-connector-python
+pyinstall:pour faire une version .exe du python file:pip install pyinstaller
+puis il faut deplacer dans le chemin ou le python file existe e executer la commande:pyinstaller --onefile pythonScriptName.py
